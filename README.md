@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @Sahil19f
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning c language
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+#include<stdio.h>
 
-<!---
-Sahil19f/Sahil19f is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int main(){
+    
+    float fahreheit, celcius;
+    printf("Enter Fahreheit:");
+    scanf("%f",&fahreheit);
+    celcius=(fahreheit-32)*5/9;
+    printf("Celcius:%2f",celcius);
+    return 0;
+    
+}
